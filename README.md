@@ -19,9 +19,9 @@
 
 <p><strong>Requirements</strong></p>
 <ol>
-<li>It is a simple quiz that has radio button choices, and it will show 
+<li>It is a simple quiz that has radio button choices, and it will show
 the quiz taker his or her score upon completion.</li>
-<li>The quiz can show any number of questions and any number of 
+<li>The quiz can show any number of questions and any number of
 choices.</li>
 <li>Tally the user’s score and display the final score on the last page. The last page will only show the score. (So you need some way to track how many they got correct)</li>
 <li>Use an array of objects to store all the questions. Each question, along with its choices and correct answer, should be stored in an object. The array of questions should look similar to this (Notice that only one question is in this example array; you will add many questions):
@@ -29,7 +29,7 @@ choices.</li>
 var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?", choices: ["David Cameron", "Gordon Brown", "Winston Churchill", "Tony Blair"], correctAnswerIndex:0}];
 <br><br>
 <em>
-    **Alternatively: You could also take this time to practice using ES6 classes. 
+    **Alternatively: You could also take this time to practice using ES6 classes.
     Could you make a class for a question? What properties or methods would be in that class?
 </em>
 <br><br>
@@ -44,12 +44,12 @@ var allQuestions = [{question: "Who is Prime Minister of the United Kingdom?", c
 
 <ul>
     <li>Add data validation: make sure the user answers each question before showing to the next question.</li>
-    <li>Add a “Back” button to allow the user to go back and change her answer. The user can go back up to the first question. For the questions already answered, show the 
+    <li>Add a “Back” button to allow the user to go back and change her answer. The user can go back up to the first question. For the questions already answered, show the
     radio button they already picked.</li>
-    <li>Use jQuery to add animation (e.g., fade out the current question and 
+    <li>Use jQuery to add animation (e.g., fade out the current question and
     fade in the next question).</li>
-    <li>Use setTimeout to create a time limit for each question. If 
+    <li>Use setTimeout to create a time limit for each question. If
     the time expires, they get the question wrong.</li>
-    <li>(more difficult) Implement another question type, such as checkboxes or textboxes instead 
+    <li>(more difficult) Implement another question type, such as checkboxes or textboxes instead
     of radio buttons</li>
 </ul>
